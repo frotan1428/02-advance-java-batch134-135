@@ -2,7 +2,9 @@ package thread.day01;
 
 public class Printer {
 
-   void printDocuments(int numOfCopies,String docName){
+    // this is the second way to synchronize out thread
+    // it is block or lock the method for one thread a time .
+  synchronized void  printDocuments(int numOfCopies,String docName){
 
         try {
             Thread.sleep(100);

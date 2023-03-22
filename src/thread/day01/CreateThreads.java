@@ -53,7 +53,6 @@ public class CreateThreads {
             System.out.println("This is thread with lambda expresstion ");
         });
         thread2.start();
-
     }
 
 }
