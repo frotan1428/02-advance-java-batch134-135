@@ -9,7 +9,6 @@ public class MultiThreading04 {
 
         // thread 1
         Thread thread1 = new Thread(new Runnable() {
-
             @Override
             public void run() {
                 for (int i = 0; i <=7; i++) {
