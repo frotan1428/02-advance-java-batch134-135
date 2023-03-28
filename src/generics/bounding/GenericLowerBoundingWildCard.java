@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 
-// what  is WildCard ?  The Question mark is represented the WildCard  it is stand for Unknown type in generics
+// what  is WildCard ?  The Question mark is represented the WildCard  it  stand for Unknown type in generics
 public class GenericLowerBoundingWildCard {
 
     public static void main(String[] args) {
